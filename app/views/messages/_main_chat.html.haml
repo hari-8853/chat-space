@@ -35,6 +35,10 @@
       .Message-text
         %p sample
   .Message-form
-    .New-message
-      .New-message__input-text
-      .New-message-submit-btn
+    %form.New_message
+      .Input-box
+        %input{type: "text", class: "Input-box__text", placeholder: "type a message"}
+        %label{class: "Input-box__image"}
+          = icon('fas', 'image')
+          %input{type: "file", class: "Input-box__image__file"}
+      %input{type: "submit", class: "Submit-btn", value: "Send"}
