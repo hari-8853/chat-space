@@ -15,34 +15,8 @@ $sky-blue:#38aef0;
   display: flex;
 }
 
-.Side-header {
-  @include wi_he(300px, 100px);
-  background-color: #253141;
-  padding: 0 20px;
-  display: flex;
-  align-items: center;
-  &__box {
-    @include wi_he(260px, 20px);
-    display: flex;
-    justify-content: space-between;
-    &__username {
-      font-weight: bold;
-      p {
-        color: $white;
-        font-size: 16px;
-      }
-    }
-    &__menu {
-      display: flex;
-      li {
-        padding-left: 5px;
-        a {
-          color: $white;
-        }
-      }
-    }
-  }
-}
+@import "side-header";
+
 
 .Group-list {
   height: calc(100vh - 100px);
