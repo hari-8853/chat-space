@@ -40,9 +40,12 @@
 .Group-list {
   height: calc(100vh - 100px);
   background-color: #2f3e51;
+  padding: 0 20px;
   .Group {
-    padding: 20px 20px 40px;
-    height: 91px;
+    padding:20px 0 40px;
+    a {
+      text-decoration: none;
+    }
     &__name {
       font-size: 15px;
       margin-bottom: 5px;
