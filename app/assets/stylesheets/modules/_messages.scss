@@ -1,0 +1,20 @@
+*{
+  box-sizing: border-box;
+}
+
+@mixin wi_he($width,$height) {
+        width: $width;
+        height: $height;
+      }
+
+$white:#ffffff;
+$black:#333333;
+$sky-blue:#38aef0;
+
+.wrapper {
+  display: flex;
+}
+
+@import "side-header";
+@import "group-list";
+@import "chat-main";
