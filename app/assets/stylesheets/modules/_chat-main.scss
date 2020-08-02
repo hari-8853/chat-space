@@ -23,13 +23,13 @@
     &__edit-btn {
       width: 72px;
       height: 40px;
-      margin: 28px;
+      margin-top: 28px;
       padding:0 20px;
-      border: solid 1px sky-blue;
+      border: solid 1px $sky-blue;
       line-height: 40px;
       a {
         font-size: 16px;
-        color: sky-blue;
+        color: $sky-blue;
         text-decoration: none;
       }
     }
@@ -89,7 +89,7 @@
         @include wi_he(100px, 50px);
         padding: 0 30px;
         margin-left: 15px;
-        background-color: sky-blue;
+        background-color: $sky-blue;
         color: #fff;
         border: none;
         cursor: pointer;
