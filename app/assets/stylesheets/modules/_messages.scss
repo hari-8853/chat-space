@@ -6,6 +6,11 @@
         width: $width;
         height: $height;
       }
+
+$white:#ffffff;
+$black:#333333;
+$sky-blue:#38aef0;
+
 .wrapper {
   display: flex;
 }
@@ -23,7 +28,7 @@
     &__username {
       font-weight: bold;
       p {
-        color: #ffffff;
+        color: $white;
         font-size: 16px;
       }
     }
@@ -32,7 +37,7 @@
       li {
         padding-left: 5px;
         a {
-          color: #ffffff;
+          color: $white;
         }
       }
     }
@@ -51,11 +56,11 @@
     &__name {
       font-size: 15px;
       margin-bottom: 5px;
-      color: #ffffff;
+      color: $white;
     }
     &__new-message {
       font-size: 11px;
-      color: #ffffff;
+      color: $white;
     }
   }
 }
@@ -63,7 +68,7 @@
 
 .Chat-main {
   width: calc(100vw - 300px);
-  background-color: #ffffff;
+  background-color: $white;
   .Chat-header {
     height: 100px;
     border-bottom: solid 1px #eeeeee;
@@ -74,7 +79,7 @@
       &__current-group {
         margin-top: 35px;
         font-size: 20px;
-        color: #333333;
+        color: $black;
       }
       &__member-list {
         display: flex;
@@ -88,11 +93,11 @@
       height: 40px;
       margin: 28px;
       padding:0 20px;
-      border: solid 1px #38aef0;
+      border: solid 1px sky-blue;
       line-height: 40px;
       a {
         font-size: 16px;
-        color: #38aef0;
+        color: sky-blue;
         text-decoration: none;
       }
     }
@@ -107,7 +112,7 @@
         display: flex;
         &__user-name {
           font-size: 16px;
-          color: #333333;
+          color: $black;
           font-weight: bold;
         }
         &__date {
@@ -152,7 +157,7 @@
         @include wi_he(100px, 50px);
         padding: 0 30px;
         margin-left: 15px;
-        background-color: #38aef0;
+        background-color: sky-blue;
         color: #fff;
         border: none;
         cursor: pointer;
