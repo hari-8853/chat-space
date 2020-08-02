@@ -16,28 +16,8 @@ $sky-blue:#38aef0;
 }
 
 @import "side-header";
+@import "group-list";
 
-
-.Group-list {
-  height: calc(100vh - 100px);
-  background-color: #2f3e51;
-  padding: 0 20px;
-  .Group {
-    padding:20px 0 40px;
-    a {
-      text-decoration: none;
-    }
-    &__name {
-      font-size: 15px;
-      margin-bottom: 5px;
-      color: $white;
-    }
-    &__new-message {
-      font-size: 11px;
-      color: $white;
-    }
-  }
-}
 
 
 .Chat-main {
