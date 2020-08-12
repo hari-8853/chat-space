@@ -34,11 +34,13 @@
       }
     }
   }
-  .Message-list {
-    height: calc(100vh - 100px - 90px);
-    background-color: #fafafa;
+  .Message-list{
+    height: calc(100vh - 190px);
     padding: 35px 40px 0 40px;
-    &__box {
+    background-color: #fafafa;
+    box-sizing: border-box;
+    overflow: scroll;
+    .Message-box {
       margin-bottom: 46px;
       .Message-info {
         display: flex;
@@ -53,10 +55,12 @@
           margin-left: 12px;
         }
       }
-      .Message-text{
-        font-size: 14px;
-        color: #434a54;
+      .Message{
         margin-top: 12px;
+        p {
+          font-size: 14px;
+          color: #434a54;
+        }
       }
     }
   }
