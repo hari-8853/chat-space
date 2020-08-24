@@ -23,7 +23,7 @@ $(function() {
                 <div class="ChatMember">
                   <p class="ChatMember__name">${name}</p>
                   <input name="group[user_ids][]" type="hidden" value="${id}" />
-                  <div class="chatMember__remove ChatMember__button">削除</div>
+                  <div class="ChatMember__remove ChatMember__button">削除</div>
                 </div>
                 `;
     $(".ChatMembers").append(html);
